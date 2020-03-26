@@ -1,0 +1,113 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+}
+.navbar-nav{
+    background-color: rgba(0, 0, 0, 0.911);
+
+}
+.nav-link {
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+.dropdown-item{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.8844)
+}
+.nav-link:hover{
+    color: rgb(250, 250, 250);
+    background-color: rgba(253, 253, 253, 0.527)
+}
+
+
+#logo{
+    min-width: 60px;
+    min-height: 40px;
+}
+.navbar-toggler{
+    background-color: rgb(255, 255, 255);
+}
+
+h3{
+    color: rgb(0, 0, 0);
+}
+h5{
+    color: rgb(0, 0, 0);
+    font: bold;
+}
+.text h6{
+    margin-top: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    /*background-color: rgb(105, 105, 19);*/
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+}
+footer{
+    background-color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer ,h1{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 0px;
+    color: lavender;
+}
+.img{
+    width: 200px;
+    height: 170px;
+}
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+    text-align: center;
+  }
+  
+  #portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background: rgba(5, 0, 0, 0.493);
+  }
+  
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+  }
+  
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: white;
+  }
+  
+ 
